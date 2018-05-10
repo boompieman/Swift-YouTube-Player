@@ -85,7 +85,7 @@ public func videoIDFromYouTubeURL(_ videoURL: URL) -> String? {
 open class YouTubePlayerView: UIView, UIWebViewDelegate {
     
     public typealias YouTubePlayerParameters = [String: AnyObject]
-    public var baseURL = "about:blank"
+    public var baseURL = "https://www.youtube.com/"
     
     fileprivate var webView: UIWebView!
     
